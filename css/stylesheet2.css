@@ -1,0 +1,109 @@
+body {
+    background-color: gainsboro;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1e2a36;
+    max-width: 960px;
+    min-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    background-color:  gainsboro;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(120px);
+    max-width: 960px;
+    min-width: 600px;    
+    
+}
+
+#top-menu {
+    grid-column: 1/3;
+    border: 1px solid black;
+
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: 120px;   
+    
+}
+
+.nav-list li {
+    border: 1px solid red;
+ 
+} 
+
+.nav-list  a {
+    text-decoration: none;
+    color: black;
+ 
+}
+
+#social-menu {
+
+    grid-column: 3/4;
+    border: 1px solid black;
+}
+
+
+#social-menu .social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-auto-rows: 60px;
+
+    list-style: none;
+    margin: 0 0;
+    padding: 0;
+}
+
+#social-menu .social li {
+    border: 1px dotted pink;
+}
+
+
+#header {
+    margin-top: 120px;
+    background-image: url(../img/threads.jpeg);
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 600px;
+    min-height: 450px; 
+       
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(143, 172, 155);
+}
+
+.main-header {
+    display: grid;
+    height: 450px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(1fr, 150px);
+    align-content: center;
+}
+
+.main-header .name {
+    grid-column: 2/4;
+}
+
+.main-header .motto {
+    grid-row: 2/3;
+    grid-column: 3/5;
+    
+    font-style: italic;   
+}
+    
+}
