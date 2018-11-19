@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box; 
+    overflow-x: hidden; 
+    overflow-y: hidden;    
+}
+
+body {
+    
+    max-width: 100%;
+    z-index: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+    
+
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+
+
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Exo 2', sans-serif;
+    color: #56423E;
+
+}
+
+
+/* 
+
+Grey Friends
+
+#DF5A49 brzoskwinia
+ 
+#56423E ciemny braz
+ 
+#BEA6A1 jasny szary braz
+
+ */
