@@ -19,7 +19,7 @@
 }
 
 .navigation-container a {
-    flex-grow: 1;
+    flex-grow: 3;
     
     text-align: center;
     line-height: 50px;
@@ -35,4 +35,15 @@
 
 .navigation-container a:hover {
     background-color: rgb(173, 150, 147);
+}
+
+.navigation-container .navigation-to-top {
+    flex-grow: 1;
+    font-size: 1rem;
+    line-height: 25px;
+   
+}
+.navigation-container .navigation-to-top:hover {
+    color: #DF5A49;
+    
 }
