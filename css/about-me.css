@@ -1,8 +1,28 @@
 .about-me-container {
-    
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
     
     margin: 0 auto;
     width: 70%;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #ffffff9c;
+
+    
+    
+
+}
+
+.about-me-mid-section {
+    background-color: #ffffffd8;
+    width: 35%;
+    height: 35%;
+    margin: 5%;
+    /* border: 1px dotted red; */
+    border-radius: 5%;
+
+    box-shadow: 0 0 15px #DF5A49;
+    -moz-box-shadow: 0 0 15px #DF5A49;
+    -webkit-box-shadow: 0 0 15px #DF5A49;
 }
