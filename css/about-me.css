@@ -49,6 +49,15 @@
     -webkit-box-shadow: 0 0 9px #56423E;
 }
 
+.about-me-mid-section-description-img {
+    width: 30px;
+    border-radius: 30px;
+}
+
+.about-me-mid-section-description-img:hover {
+   background-color: rgba(223, 90, 73, 0.589);
+}
+
 .about-me-mid-section-description {
     border-radius: 10px;
     /* box-shadow: 0 0 3px #56423E;
@@ -59,6 +68,7 @@
     width: 40%;
     height: 90%;
     padding: 2%;
+    color: #DF5A49
 }
 
 
