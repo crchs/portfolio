@@ -5,6 +5,7 @@
     align-items: center;
     
     margin: 0 auto;
+    min-width: 850px;
     width: 70%;
     height: 100vh;
     background-color: #ffffff9c;
@@ -14,6 +15,7 @@
 
 .about-me-mid-section {
     background-color: #ffffffd8;
+    min-width: 400px;
     width: 40%;
     height: 40%;
     padding: 0.7%;
@@ -21,13 +23,14 @@
     /* border: 1px dotted red; */
     border-radius: 10px;
 
-    box-shadow: 0 0 15px #DF5A49;
-    -moz-box-shadow: 0 0 15px #DF5A49;
-    -webkit-box-shadow: 0 0 15px #DF5A49;
+    box-shadow: 0 0 15px #56423E;
+    -moz-box-shadow: 0 0 15px #56423E;
+    -webkit-box-shadow: 0 0 15px #56423E;
     display: flex;
     justify-content: start;
     align-items: center;
 }
+
 
 .about-me-mid-section:nth-child(odd) {
     margin-right: 5%;
@@ -42,16 +45,19 @@
 
 .about-me-mid-section-img {
     margin-right: 5px;
-    max-width: 60%;
+    
     border-radius: 10px;
     box-shadow: 0 0 9px #56423E;
     -moz-box-shadow: 0 0 9px #56423E;
     -webkit-box-shadow: 0 0 9px #56423E;
+    height: 100%;
+    max-width: 60%;
+    
 }
 
-.about-me-mid-section-description-img {
-    width: 30px;
-    border-radius: 30px;
+.about-me-mid-section-description-icon {
+    width: 40px;
+    border-radius: 40px;
 }
 
 .about-me-mid-section-description-img:hover {
@@ -66,9 +72,14 @@
 
     /* background-color: #ffffff; */
     width: 40%;
-    height: 90%;
+    height: 100%;
     padding: 2%;
-    color: #DF5A49
+    color: #DF5A49; 
+    font-size: 0.9vw;   
+}
+
+.my-face .about-me-mid-section-description {
+    width: 50%;
 }
 
 

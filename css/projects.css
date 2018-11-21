@@ -4,4 +4,54 @@
     width: 70%;
     height: 100vh;
     background-color: #ffffff9c;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.projects-project {
+    background-color: #ffffffd8;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px #56423E;
+    -moz-box-shadow: 0 0 15px #56423E;
+    -webkit-box-shadow: 0 0 15px #56423E;
+    
+    text-align: center;
+   
+}
+
+.playground {
+    background-image: url(../img/playground.png);   
+}
+.show-me-your-goods {
+    background-image: url(../img/market.png);
+}
+.tailor-me {
+    background-image: url(../img/scissors2.png);   
+}
+
+.projects-project a {
+    display: block;
+    color: #56423E;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    font-size: 2.5rem;
+    line-height: 200px;
+    height: inherit;
+    width: inherit;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.726);
+    font-weight: 400;
+}
+
+.show-me-your-goods a {
+    font-size: 2rem;
 }
